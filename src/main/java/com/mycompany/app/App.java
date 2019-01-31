@@ -20,7 +20,7 @@ public static void main(String args[]) {
        System.out.print("5. EXIT\n\n");
        //System.out.print("Enter your choice : ");
        choice = scan.next().charAt(0);
-       choice=5
+       choice=5;
        switch(choice){
           case '1': System.out.print("Enter Two Numbers\n");
                     a = scan.nextFloat();
@@ -36,14 +36,14 @@ public static void main(String args[]) {
                     System.out.print("Result = "+res);
                     break;
 
-          case '1': System.out.print("Enter Two Numbers\n");
+          case '3': System.out.print("Enter Two Numbers\n");
                     a = scan.nextFloat();
                     b = scan.nextFloat();
                     res = a*b;
                     System.out.print("Result = "+res);
                     break;
 
-          case '1': System.out.print("Enter Two Numbers\n");
+          case '4': System.out.print("Enter Two Numbers\n");
                     a = scan.nextFloat();
                     b = scan.nextFloat();
                     res = a/b;
